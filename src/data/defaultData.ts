@@ -29,7 +29,6 @@ export const defaultEventInfo: GraduationEventInfo = {
   aboutText: 'Mahafali ya Kidato cha Nne ya Tura Secondary School ni tukio maalum la kusherehekea safari ya kielimu ya wanafunzi wanaohitimisha elimu yao ya sekondari. Tukio hili linawakutanisha wanafunzi, walimu, wazazi, walezi, viongozi na wageni mbalimbali katika kusherehekea hatua hii muhimu.',
   contactAddress: 'Tura Secondary School, S.L.P. [Weka S.L.P. Hapa], Uyui – Tabora, Tanzania',
   contactNote: 'Tovuti hii imeundwa maalum kwa ajili ya kutangaza na kuonyesha matukio ya Mahafali ya Kidato cha Nne 2026.',
-  schoolMotto: 'Education for Liberation',
 };
 
 export const defaultHighlights: EventHighlight[] = [

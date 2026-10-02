@@ -33,13 +33,13 @@ export default function App() {
   // Event Information State
   const [eventInfo, setEventInfo] = useState<GraduationEventInfo>(() => {
     const version = localStorage.getItem('tura_event_version');
-    if (version === 'v3') {
+    if (version === 'v2') {
       const saved = localStorage.getItem('tura_event_info');
       if (saved) {
         try { return JSON.parse(saved); } catch (e) { /* ignore */ }
       }
     } else {
-      localStorage.setItem('tura_event_version', 'v3');
+      localStorage.setItem('tura_event_version', 'v2');
       localStorage.setItem('tura_event_info', JSON.stringify(defaultEventInfo));
       return defaultEventInfo;
     }

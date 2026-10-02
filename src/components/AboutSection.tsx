@@ -53,22 +53,9 @@ export function AboutSection({ eventInfo }: AboutSectionProps) {
               <span>Taarifa Rasmi</span>
             </div>
 
-            <h2 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight mb-4">
+            <h2 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight leading-tight mb-6">
               🎓 KUHUSU MAHAFALI
             </h2>
-
-            {/* School Motto Callout */}
-            <div className="mb-6 p-3.5 rounded-xl bg-gradient-to-r from-emerald-950 via-blue-950 to-slate-900 text-white border border-emerald-500/30 flex items-center justify-between gap-3 shadow-sm">
-              <div className="flex items-center gap-2.5">
-                <div className="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold">
-                  <Award className="w-4 h-4" />
-                </div>
-                <div>
-                  <span className="text-[10px] text-emerald-300 font-bold uppercase tracking-wider block">Kauli Mbiu ya Shule (School Motto)</span>
-                  <span className="text-sm font-extrabold text-white tracking-wide font-serif">&ldquo;{eventInfo.schoolMotto || 'Education for Liberation'}&rdquo;</span>
-                </div>
-              </div>
-            </div>
 
             <div className="bg-slate-50 border-l-4 border-blue-600 p-5 rounded-r-2xl mb-6">
               <p className="text-base sm:text-lg text-slate-800 leading-relaxed font-medium">

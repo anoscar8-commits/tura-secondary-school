@@ -43,10 +43,6 @@ export function Footer({ eventInfo, onOpenAdmin, onOpenGuide }: FooterProps) {
               Kituo cha malezi, nidhamu na maarifa bora kwa vijana wa Sekondari katika Mkoa wa Tabora, Tanzania.
             </p>
 
-            <div className="text-xs text-emerald-400 font-semibold italic">
-              Motto: &ldquo;{eventInfo.schoolMotto || 'Education for Liberation'}&rdquo;
-            </div>
-
             <div className="pt-2 text-xs text-amber-400 font-semibold flex items-center gap-1.5">
               <Calendar className="w-3.5 h-3.5" />
               <span>{eventInfo.eventName}</span>

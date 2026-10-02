@@ -84,10 +84,8 @@ export function Navbar({ onOpenAdmin, onOpenGuide, isToday }: NavbarProps) {
                     </span>
                   )}
                 </div>
-                <p className="text-[11px] sm:text-xs text-blue-200/80 font-medium flex items-center gap-1.5">
-                  <span>Uyui, Tabora</span>
-                  <span>•</span>
-                  <span className="text-amber-400 font-semibold italic">&ldquo;Education for Liberation&rdquo;</span>
+                <p className="text-[11px] sm:text-xs text-blue-200/80 font-medium">
+                  Uyui, Tabora • Mahafali ya Kidato cha Nne 2026
                 </p>
               </div>
             </a>

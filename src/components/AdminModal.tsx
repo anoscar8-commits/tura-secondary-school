@@ -751,17 +751,6 @@ export function AdminModal({
                           className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white"
                         />
                       </div>
-
-                      <div className="sm:col-span-2">
-                        <label className="block text-xs font-bold text-slate-700 mb-1">Kauli Mbiu ya Shule (School Motto):</label>
-                        <input
-                          type="text"
-                          value={eventInfo.schoolMotto || 'Education for Liberation'}
-                          onChange={(e) => handleInfoChange('schoolMotto', e.target.value)}
-                          placeholder="Mfano: Education for Liberation"
-                          className="w-full px-3 py-2 rounded-xl border border-slate-200 text-xs bg-white font-medium"
-                        />
-                      </div>
                     </div>
 
                     <div>

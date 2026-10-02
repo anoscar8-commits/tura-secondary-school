@@ -59,14 +59,10 @@ export function Hero({ eventInfo, isToday, onTriggerConfetti }: HeroProps) {
             </div>
           </div>
 
-          {/* School Name, Welcome Greeting & Motto */}
-          <div className="flex flex-wrap items-center gap-2 mb-3">
-            <span className="inline-block text-amber-400 font-extrabold tracking-widest text-xs sm:text-sm uppercase font-mono bg-amber-400/10 px-3 py-1 rounded border border-amber-400/20">
+          {/* School Name & Welcome Greeting */}
+          <div className="mb-3">
+            <span className="inline-block text-amber-400 font-extrabold tracking-widest text-xs sm:text-sm uppercase font-mono bg-amber-400/10 px-3 py-1 rounded border border-amber-400/20 mb-2">
               {eventInfo.heroGreeting}
-            </span>
-            <span className="inline-flex items-center gap-1.5 text-emerald-300 font-bold text-xs bg-emerald-500/15 px-3 py-1 rounded border border-emerald-500/30">
-              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400"></span>
-              <span>Motto: &ldquo;{eventInfo.schoolMotto || 'Education for Liberation'}&rdquo;</span>
             </span>
           </div>
 

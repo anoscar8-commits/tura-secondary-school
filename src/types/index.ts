@@ -47,5 +47,4 @@ export interface GraduationEventInfo {
   aboutText: string;
   contactAddress: string;
   contactNote: string;
-  schoolMotto?: string;
 }
