@@ -1,0 +1,7 @@
+{
+  "name": "Tura Secondary School - Mahafali ya Kidato cha Nne 2026",
+  "description": "Karibu Tura Secondary School, Wilaya ya Uyui, Mkoa wa Tabora. Tazama taarifa, picha na matukio ya Mahafali ya Kidato cha Nne ya mwaka 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
